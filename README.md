@@ -16,13 +16,13 @@ Dự án này sử dụng mô hình YOLOv8n để phát hiện và phân loại 
 
 Để cài đặt các thư viện cần thiết, bạn có thể sử dụng `pip` từ file `requirements.txt`.
 
-```bash
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 cd your-repo-name
 pip install -r requirements.txt
 3. Cấu trúc thư mục (File Structure)
 Dự án được tổ chức theo cấu trúc sau (Cấu trúc dữ liệu của dataset có thể hơi khác so với cấu trúc dữ liệu được yêu cầu bên dưới):
 
+```bash
 Road-Surface-Damage-Detection/
 ├── dataset/
 │   ├── images/
@@ -39,14 +39,16 @@ Road-Surface-Damage-Detection/
 ├── DoAnEmbeddedAI.ipynb (notebook huấn luyện)
 ├── ChayMoHinhf.ipynb (notebook dự đoán)
 └── README.md
-4. Cách sử dụng (Usage)
+```
+
+## 4. Cách sử dụng (Usage)
 Huấn luyện mô hình
 Sử dụng notebook yolov8n_training.ipynb để huấn luyện mô hình trên bộ dữ liệu của bạn.
 
 Dự đoán và phát hiện
 Sử dụng notebook detect_and_predict.ipynb để chạy mô hình đã huấn luyện trên tập test được cung cấp sẵn.
 
-5. Kết quả (Results)
+## 5. Kết quả (Results)
 Sau quá trình huấn luyện, mô hình đạt được các chỉ số hiệu suất sau:
 
 mAP50: 0.311
@@ -57,15 +59,17 @@ mAP50-95: 0.19
 
 Hình ảnh minh họa
 
-6. Cải tiến trong tương lai (Future Works)
+## 6. Cải tiến trong tương lai (Future Works)
 Tối ưu hóa sâu hơn: Thử nghiệm các kỹ thuật lượng tử hóa (quantization) như INT8 để giảm kích thước mô hình và tăng tốc độ suy luận trên thiết bị biên.
 
 Mở rộng bộ dữ liệu: Huấn luyện trên các bộ dữ liệu đa dạng hơn để cải thiện khả năng tổng quát của mô hình.
 
 Triển khai thực tế: Xây dựng một ứng dụng nhúng trên các thiết bị như Raspberry Pi hoặc Jetson Nano để thực hiện dự đoán thời gian thực.
 
-7. Tác giả (Author)
+## 7. Tác giả (Author)
 Nguyễn Hoàng Nam
+
+Danh Nat
 
 Email: ng.h.nam0802@gmail.com
 
