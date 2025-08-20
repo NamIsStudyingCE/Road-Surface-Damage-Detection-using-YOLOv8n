@@ -18,7 +18,7 @@ Dự án này sử dụng mô hình YOLOv8n để phát hiện và phân loại 
 
 pip install -r requirements.txt
 
-3. Cấu trúc thư mục (File Structure)
+## 3. Cấu trúc thư mục (File Structure)
 
 Link dataset: https://zenodo.org/records/10100129
 
