@@ -16,10 +16,12 @@ Dự án này sử dụng mô hình YOLOv8n để phát hiện và phân loại 
 
 Để cài đặt các thư viện cần thiết, bạn có thể sử dụng `pip` từ file `requirements.txt`.
 
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
 pip install -r requirements.txt
+
 3. Cấu trúc thư mục (File Structure)
+
+Link dataset: https://zenodo.org/records/10100129
+
 Dự án được tổ chức theo cấu trúc sau (Cấu trúc dữ liệu của dataset có thể hơi khác so với cấu trúc dữ liệu được yêu cầu bên dưới):
 
 ```bash
@@ -33,8 +35,6 @@ Road-Surface-Damage-Detection/
 │       ├── train/
 │       ├── val/
 │       └── test/
-├── models/
-│   └── yolov8n.pt (mô hình đã được huấn luyện)
 ├── requirements.txt
 ├── DoAnEmbeddedAI.ipynb (notebook huấn luyện)
 ├── ChayMoHinhf.ipynb (notebook dự đoán)
@@ -43,7 +43,7 @@ Road-Surface-Damage-Detection/
 
 ## 4. Cách sử dụng (Usage)
 Huấn luyện mô hình
-Sử dụng notebook yolov8n_training.ipynb để huấn luyện mô hình trên bộ dữ liệu của bạn.
+Sử dụng notebook DoAnEmbeddedAI.ipynb để huấn luyện mô hình trên bộ dữ liệu của bạn.
 
 Dự đoán và phát hiện
 Sử dụng notebook detect_and_predict.ipynb để chạy mô hình đã huấn luyện trên tập test được cung cấp sẵn.
