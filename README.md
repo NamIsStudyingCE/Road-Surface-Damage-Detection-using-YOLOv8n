@@ -37,7 +37,7 @@ Road-Surface-Damage-Detection/
 │       └── test/
 ├── requirements.txt
 ├── DoAnEmbeddedAI.ipynb (notebook huấn luyện)
-├── ChayMoHinhf.ipynb (notebook dự đoán)
+├── ChayMoHinh.ipynb (notebook dự đoán)
 └── README.md
 ```
 
@@ -46,7 +46,7 @@ Huấn luyện mô hình
 Sử dụng notebook DoAnEmbeddedAI.ipynb để huấn luyện mô hình trên bộ dữ liệu của bạn.
 
 Dự đoán và phát hiện
-Sử dụng notebook detect_and_predict.ipynb để chạy mô hình đã huấn luyện trên tập test được cung cấp sẵn.
+Sử dụng notebook ChayMoHinh.ipynb để chạy mô hình đã huấn luyện trên tập test được cung cấp sẵn.
 
 ## 5. Kết quả (Results)
 Sau quá trình huấn luyện, mô hình đạt được các chỉ số hiệu suất sau:
@@ -55,7 +55,7 @@ mAP50: 0.311
 
 mAP50-95: 0.19
 
-Đây là những kết quả chứng minh khả năng định vị hư hại đường một cách hiệu quả.
+Đây là những kết quả chứng minh khả năng định vị hư hại đường một cách hiệu quả. Kết quả có thể hơi khác tùy vào số epoch hoặc các chỉ số khác như learning rate, batch size,...bị thay đổi.
 
 Hình ảnh minh họa
 
