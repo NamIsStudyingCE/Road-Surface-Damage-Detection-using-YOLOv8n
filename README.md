@@ -16,7 +16,9 @@ Dự án này sử dụng mô hình YOLOv8n để phát hiện và phân loại 
 
 Để cài đặt các thư viện cần thiết, bạn có thể sử dụng `pip` từ file `requirements.txt`.
 
+```bash
 pip install -r requirements.txt
+```
 
 ## 3. Cấu trúc thư mục (File Structure)
 
@@ -51,11 +53,13 @@ Sử dụng notebook ChayMoHinh.ipynb để chạy mô hình đã huấn luyện
 ## 5. Kết quả (Results)
 Sau quá trình huấn luyện, mô hình đạt được các chỉ số hiệu suất sau:
 
+```bash
 mAP50: 0.311
 
 mAP50-95: 0.19
+```
 
-Đây là những kết quả chứng minh khả năng định vị hư hại đường một cách hiệu quả. Kết quả có thể hơi khác tùy vào số epoch hoặc các chỉ số khác như learning rate, batch size,...bị thay đổi.
+Đây là những kết quả chứng minh khả năng định vị hư hại đường một cách hiệu quả. Kết quả có thể hơi khác nếu số epoch hoặc các chỉ số khác như learning rate, batch size,...được thay đổi.
 
 Hình ảnh minh họa
 
