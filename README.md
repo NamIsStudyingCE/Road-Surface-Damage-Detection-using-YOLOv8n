@@ -43,6 +43,8 @@ Road-Surface-Damage-Detection/
 └── README.md
 ```
 
+Liên hệ với tác giả để nhận tập test.
+
 ## 4. Cách sử dụng (Usage)
 Huấn luyện mô hình
 Sử dụng notebook DoAnEmbeddedAI.ipynb để huấn luyện mô hình trên bộ dữ liệu của bạn.
