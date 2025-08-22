@@ -76,6 +76,9 @@ Nguyễn Hoàng Nam
 
 Danh Nat
 
-📧 Email: ng.h.nam0802@gmail.com
+📧 Email: 
+ng.h.nam0802@gmail.com
+
+danhnatit@gmail.com 
 
 🔗 LinkedIn: www.linkedin.com/in/nghnam0802
